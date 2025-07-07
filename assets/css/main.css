@@ -1637,27 +1637,20 @@ section,
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
-  min-height: 320px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   text-align: center;
   transition: 0.3s;
 }
 
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   border: 4px solid var(--background-color);
   margin: 0 auto;
+  
 }
 
 .testimonials .testimonial-item h3 {
