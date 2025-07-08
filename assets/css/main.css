@@ -606,7 +606,7 @@ h6 {
   color: var(--accent-color);
 }
 
-.footer .footer-contact p {
+.footer .footer-kontak p {
   margin-bottom: 5px;
 }
 
@@ -1629,9 +1629,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Testimonials Section
+# galeri Section
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.galeri .testimonial-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 20px rgba(0, 0, 0, 0.1);
   box-sizing: content-box;
@@ -1645,7 +1645,7 @@ section,
 }
 
 
-.testimonials .testimonial-item .testimonial-img {
+.galeri .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   border: 4px solid var(--background-color);
@@ -1653,78 +1653,78 @@ section,
   
 }
 
-.testimonials .testimonial-item h3 {
+.galeri .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
 }
 
-.testimonials .testimonial-item h4 {
+.galeri .testimonial-item h4 {
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 0;
 }
 
-.testimonials .testimonial-item p {
+.galeri .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
 }
 
-.testimonials .swiper-wrapper {
+.galeri .swiper-wrapper {
   height: auto;
 }
 
-.testimonials .swiper-pagination {
+.galeri .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.galeri .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.galeri .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.testimonials .swiper-slide {
+.galeri .swiper-slide {
   opacity: 0.3;
 }
 
 @media (max-width: 1199px) {
-  .testimonials .swiper-slide-active {
+  .galeri .swiper-slide-active {
     opacity: 1;
   }
 
-  .testimonials .swiper-pagination {
+  .galeri .swiper-pagination {
     margin-top: 0;
   }
 
-  .testimonials .testimonial-item {
+  .galeri .testimonial-item {
     margin: 40px 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  .testimonials .swiper-slide-next {
+  .galeri .swiper-slide-next {
     opacity: 1;
     transform: scale(1.12);
   }
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# kontak Section
 --------------------------------------------------------------*/
-.contact .info-item {
+.kontak .info-item {
   background-color: var(--surface-color);
   padding: 20px 0 30px 0;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.contact .info-item i {
+.kontak .info-item i {
   font-size: 20px;
   color: var(--accent-color);
   width: 56px;
@@ -1739,20 +1739,20 @@ section,
   border: 2px dotted color-mix(in srgb, var(--accent-color), transparent 40%);
 }
 
-.contact .info-item h3 {
+.kontak .info-item h3 {
   font-size: 20px;
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0;
 }
 
-.contact .info-item p {
+.kontak .info-item p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
 }
 
-.contact .php-email-form {
+.kontak .php-email-form {
   background-color: var(--surface-color);
   height: 100%;
   padding: 30px;
@@ -1760,14 +1760,14 @@ section,
 }
 
 @media (max-width: 575px) {
-  .contact .php-email-form {
+  .kontak .php-email-form {
     padding: 20px;
   }
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
+.kontak .php-email-form input[type=text],
+.kontak .php-email-form input[type=email],
+.kontak .php-email-form textarea {
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
@@ -1777,19 +1777,19 @@ section,
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
+.kontak .php-email-form input[type=text]:focus,
+.kontak .php-email-form input[type=email]:focus,
+.kontak .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
+.kontak .php-email-form input[type=text]::placeholder,
+.kontak .php-email-form input[type=email]::placeholder,
+.kontak .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type=submit] {
+.kontak .php-email-form button[type=submit] {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
@@ -1798,7 +1798,7 @@ section,
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.kontak .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
