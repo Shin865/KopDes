@@ -1907,6 +1907,12 @@ section,
 
 .service-details .services-img {
   margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-details h3 {
