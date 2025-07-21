@@ -1751,57 +1751,6 @@ section,
   margin-bottom: 0;
   font-size: 14px;
 }
-
-.kontak .php-email-form {
-  background-color: var(--surface-color);
-  height: 100%;
-  padding: 30px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 575px) {
-  .kontak .php-email-form {
-    padding: 20px;
-  }
-}
-
-.kontak .php-email-form input[type=text],
-.kontak .php-email-form input[type=email],
-.kontak .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.kontak .php-email-form input[type=text]:focus,
-.kontak .php-email-form input[type=email]:focus,
-.kontak .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.kontak .php-email-form input[type=text]::placeholder,
-.kontak .php-email-form input[type=email]::placeholder,
-.kontak .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.kontak .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.kontak .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
